@@ -3,4 +3,8 @@
 // Example: Array
 var test = ["car", 18];
 
-//Example :
+//Example : Nested Array
+
+var nestedArray = [ ["car", 12], ["bike", 3]]
+
+console.log(nestedArray);
