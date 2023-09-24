@@ -11,3 +11,9 @@ var letter = "pocket parfum";
 var seventhLetterofLetter = letter[7];
 
 console.log(seventhLetterofLetter);
+
+//find last letter of string 
+
+var lastLetterOfString = letter[letter.length-1];
+
+console.log(lastLetterOfString);
