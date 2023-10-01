@@ -39,3 +39,16 @@ person.shift(); // removes madara
 
 console.log(person);
 
+
+// unshift() method : similar to push, here insert new item to beginning of array
+
+var unshiftArray = ['dog',21,32,423];
+unshiftArray.unshift("cat");
+
+console.log(unshiftArray);
+
+var fight = ['takewondo','karate','muay thai','judo'];
+fight.shift();  // remove 'takewondo'
+fight.unshift('boxing');    // add 'boxing' to 0 index
+
+console.log(fight);
