@@ -24,3 +24,18 @@ var carPart = ['tire','engine','petrol', ['seat','baterry']];
 carPart.pop();
 
 console.log(carPart);
+
+// Shift() method : similar to pop method but here Remove first item in array
+
+var shiftArray = [[12,13,223],['sd','fd','we'],'sd',32];
+shiftArray.shift();
+
+console.log(shiftArray);
+// [ [ 'sd', 'fd', 'we' ], 'sd', 32 ]
+
+//Example 2 :
+var person = ['madara','kuju','tutta','orbito'];
+person.shift(); // removes madara
+
+console.log(person);
+
