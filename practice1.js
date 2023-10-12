@@ -8,7 +8,7 @@ and display array before and after
 
 function arrayAction(arr , item){
     arr.push(item);
-    arr.shift();
+   return arr.shift();
 }
 
 var testArr=[1,2,3,4,5,6,7]
