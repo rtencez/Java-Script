@@ -10,3 +10,4 @@ function testEqual(val) {
     return "Not Equal"
 }
 console.log(testEqual(12));
+console.log(testEqual('12'));
