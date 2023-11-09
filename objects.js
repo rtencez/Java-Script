@@ -32,3 +32,17 @@ var drinkValue = testObj["the drink"];
 
 console.log(entreeValue);
 console.log(drinkValue);
+
+//Access object properties with variable
+
+var testObj2 ={
+    12: "drone",
+    13: "fligth",
+    14: "car",
+    15: "bus"
+};
+
+var objNumber = 13;
+var obj2 = testObj2[objNumber];
+
+console.log(obj2);
