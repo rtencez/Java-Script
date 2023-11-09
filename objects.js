@@ -46,3 +46,18 @@ var objNumber = 13;
 var obj2 = testObj2[objNumber];
 
 console.log(obj2);
+
+// Update object property
+
+ 
+// var school = {
+//     "name": "schoolName",
+//     "address": "address",
+//     "students": ["student!","student2"], // Array of students in the school
+// };
+
+school.name = "happy coder";
+console.log(school.name);
+
+// Add new property to an object
+
