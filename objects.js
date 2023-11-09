@@ -18,3 +18,17 @@ var studentsValue = school.students;
 
 console.log(nameValue);
 console.log(studentsValue);
+
+// Access objects's property using Bracket notation
+
+var testObj = {
+    "an entree": "hamburger",
+    "my side": "vaggies",
+    "the drink": "coffee"
+}
+
+var entreeValue = testObj["an entree"];
+var drinkValue = testObj["the drink"];
+
+console.log(entreeValue);
+console.log(drinkValue);
