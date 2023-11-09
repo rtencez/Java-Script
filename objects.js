@@ -61,3 +61,10 @@ console.log(school.name);
 
 // Add new property to an object
 
+// Dot notation
+school.floor = "one floor";
+
+//Braket notation
+school['bark'] = "woof";
+
+console.log(school);
