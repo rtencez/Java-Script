@@ -68,3 +68,10 @@ school.floor = "one floor";
 school['bark'] = "woof";
 
 console.log(school);
+
+// Delete property from Object
+
+delete school.students;
+delete school.bark;
+
+console.log("Object after deleting onbject student and bark :",school);
