@@ -41,3 +41,28 @@ var myStorage= {
 
 var wheelCount = myStorage.car.outside["wheel"];
 console.log(wheelCount);
+
+
+// Accessing Nested Array
+var myPlant = [
+    {
+        type : "flower",
+        list : [
+            "rose",
+            "red rose",
+            "white rose"
+        ]
+    },
+    {
+        type : "tree",
+        list : [
+            "coconut tree",
+            "mango tree",
+            "pine"
+        ]
+    }
+];
+console.log(myPlant);
+
+var firtstFlower = myPlant[0].list[2];
+console.log(firtstFlower);
