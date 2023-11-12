@@ -14,9 +14,9 @@ var myObj = {
     bed : "puma"
 }
 
-function checkObj(checkProperty) {
-    if (myObj.hasOwnProperty[checkProperty]) {
-        return myObj[checkProperty];
+function checkObj(checkProp) {
+    if (myObj.hasOwnProperty[checkProp]) {
+        return myObj[checkProp];
     } else {
         return "Not found !"
     }
