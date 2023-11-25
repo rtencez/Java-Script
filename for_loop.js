@@ -16,4 +16,12 @@ for (var i = 1; i < 6; i++){
 }
 console.log(ourArray);
 
-// Count backward with for loop
+// Add odd number to array  with for loop
+
+var oddNum =[];
+
+for(var i=9; i>0; i-=2){
+    oddNum.push(i);
+};
+console.log(oddNum);
+
