@@ -1,0 +1,6 @@
+// “var” is faster than “let” inside loops while running or executing code.
+
+// "use strict"
+
+// var declaration -globally
+ 
