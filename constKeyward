@@ -1,6 +1,7 @@
 // Declare Readonly variable with const keyword 
 /**
- * 
+ * variable declared in `const` keyward can't be reused
+ * Also variable name declared in `CAPITAL_LETTER` to recognize as const
  */
 function printManyTimes(str) {
     "use strict";
@@ -8,13 +9,30 @@ function printManyTimes(str) {
 
     // var sentence = str + " is cool!";
 
-    const sentence = str + " is cool!";
+    const SENTENCE = str + " is cool!";
 
-    sentence = str + " is amazing!"
+    // sentence = str + " is amazing!"     ~ ONLY USED FOR `VAR`
 
     for (var i = 0; i < str.length; i += 2) {
-        console.log(sentence);
+        console.log(SENTENCE);
     }
 
 }
 console.log(printManyTimes("freeCodeCamp"));
+
+/**
+ *   Mutate an Array Declared with const
+ */
+const s =[3,4,90];
+
+function editInPlace() {
+    "use strict"
+
+    // s=[2,68,9];
+    s[0]= 24;
+    s[1]= 89;
+    s[2]='hello';
+
+}
+editInPlace();
+console.log(s);
